@@ -1,0 +1,15 @@
+cmd in data folder
+mongod --dbpath=data --bind_ip 127.0.0.1
+
+open new cmd
+type mongo it will start mongo server
+>db //current db
+>use confusion //new db
+>db
+>db.help
+>db.dishes.insert({"name":"Uthappizza","description":"test"}); //make new collection 
+>db.dishes.find() //find all doc in collection dishes
+>db.dishes.find().pretty(); //more readable manner
+>var id = new ObjectId(); //created var like object id
+>id.getTimestamp();
+>exit
